@@ -33,7 +33,7 @@ public class BookingService {
         this.userRepository = userRepository;
         this.showRepository = showRepository;
         this.showSeatRepository = showSeatRepository;
-        this.priceCalculationService = priceCalculationService
+        this.priceCalculationService = priceCalculationService;
     }
 
     @Transactional(isolation = Isolation.SERIALIZABLE)
